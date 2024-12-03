@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.custom-shadow{
+   box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav.nav-shadow{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Shadow below the navbar */
+}
+
+main{
+    min-height: 100vh;
+}
+
+.customized-bg-color{
+    background-color: #24353f;
+}
+
+.main-color{
+    color: #17a2b8;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid #bcc6cd;
+    color: #bcc6cd;
+    height: 2.5rem;
+    width: 100%;
+}
+
+input:focus{
+    border: 1px solid #52799f;
+    outline: none;
+}
+
+::placeholder{
+    color: #bcc6cd;
+    font-size: 1.1rem;
+}
+
+button{
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    background-color: transparent;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+p a{
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration:underline white;
+}
+
+#error-msg{
+    color: red;
+}
+
+#logout{
+    width: 80px;
+    height: 2rem;
+    border: 1px solid rgb(255, 153, 0);
+    color: #bcc6cd;
+    font-size: 1.2rem;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#logout:hover{
+    background-color: rgb(255, 153, 0);
+}

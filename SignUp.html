@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+
+    <!-- Linking css files: -->
+    <!-- 1. Customized style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 2. bootstrap style file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <main class="customized-bg-color">
+        <div class="container  p-5">
+            <div class="w-75 m-auto customized-bg-color p-5 mt-5 custom-shadow text-center">
+                <h1 class="main-color">
+                    Smart Login System
+                </h1>
+                <input type="text" class="mt-3 p-3 rounded input-custom-style" id="userName" placeholder="Enter your name">
+                <input type="email" class="mt-3 p-3 rounded input-custom-style" id="userMail" placeholder="Enter your email">
+                <input type="password" class="mt-3 p-3 rounded input-custom-style" id="userPass" placeholder="Enter your password">
+                <p id="error-msg" class="mt-3 d-none">email already exists</p>
+                <button id="signUpBtn" class="p-2 rounded mt-4">Sign up</button>
+                <p class="mt-3">
+                    You have an account?
+                    <a href="./index.html">SignIn</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Linking JS files: -->
+    <!-- 1. Customized JS script -->
+    <script src="./js/main.js"></script>
+    <!-- 2. bootstrap JS file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
